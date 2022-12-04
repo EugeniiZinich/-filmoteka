@@ -280,8 +280,8 @@ function onHidePswd() {
   refs.chPswd.setAttribute('type', 'password');
 }
 
-refs.userAuth.addEventListener('click', onOpenModalAuth);
 refs.regForm.addEventListener('submit', onCreateUser);
+refs.userAuth.addEventListener('click', onOpenModalAuth);
 refs.modalAuth.addEventListener('click', onCloseModalAuth);
 refs.closeModalBtn.addEventListener('click', onCloseModalAuth);
 refs.closeModalCross.addEventListener('click', onCloseModalAuth);
